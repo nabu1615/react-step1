@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <h1>Hola Mundo</h1>
+      <div>
+        <h1>Hola Mundo</h1>
+        <p> Soy un Parrafo </p>
+      </div>
     );
   }
 }
